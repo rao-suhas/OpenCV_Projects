@@ -5,7 +5,7 @@ import numpy as np
 def motion_blur(image, axis=90, kernel_size=15):
     
     '''
-    This function takes an input image, orientiation of blur & kernel size
+    This function takes an input image, orientation of blur & kernel size
     Applies a custom kernel on image, made from the input arguments &
     Returns the motion blurred image
     Note:
